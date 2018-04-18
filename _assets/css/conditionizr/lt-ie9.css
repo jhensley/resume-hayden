@@ -1,0 +1,27 @@
+/* lt-ie9.css */
+.clearfix,header,#content,#content dl,aside,aside dl{zoom:1}
+.chromeframe{background:#ff9;border-bottom:1px solid #949494;text-align:center;position:fixed;top:0;margin:0;padding:20px 0;width:100%;z-index:999;}
+.chromeframe a{color:#00f}
+.ie7 h2{background:transparent;color:#f90;margin-bottom:0;padding-left:0;float:none}
+.ie7 header{width:auto}
+.ie7 #content{float:left;width:55%;}
+.ie7 #content h2{margin-top:3em;margin-bottom:0}
+.ie7 #content .profile h2,.ie7 #content h3{margin-top:0}
+.ie7 aside{background:transparent;position:static;right:auto;float:right;width:25%;padding-top:0;}
+.ie7 aside h3{color:#f90;font-size:24px}
+.ie7 aside dt{margin-bottom:.5em;width:22%;float:left;text-align:right;margin-right:.25em;padding:2% 2% 2% 0;}
+.ie7 aside dt span{position:static;margin:0;width:auto;height:auto}
+.ie7 aside dt i{display:none}
+.ie7 aside dd{margin-bottom:.5em;float:left;width:58%;padding:2%;}
+.ie7 aside dd a{padding:0;display:inline}
+@media only screen and (max-width: 850px), screen and (max-height: 675px){.ie7 header,.ie7 aside,.ie7 #content,.ie7 footer{width:auto;float:none}
+.ie7 footer{clear:left}
+.ie7 .contact,.ie7 .follow{width:50%}
+}@media only screen and (max-width: 650px){.ie7 .contact,.ie7 .follow{width:auto}
+}.ie6 h2{float:none;background:none;color:#f90;margin-top:1em;padding:0;margin-bottom:0}
+.ie6 header,.ie6 #content,.ie6 aside{width:auto}
+.ie6 header img{height:100px;width:100px}
+.ie6 #content h2{padding-top:3em}
+.ie6 #content .profile h2{padding-top:0}
+.ie6 aside{position:static;}
+.ie6 aside dd{display:block;float:left;clear:left}

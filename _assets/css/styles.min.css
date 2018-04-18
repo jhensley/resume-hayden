@@ -1,0 +1,101 @@
+/* icons.css */
+@font-face{font-family:'entypo';src:url("../fonts/entypo.eot");src:url("../fonts/entypo.eot?#iefix") format('embedded-opentype'),url("../fonts/entypo.woff") format('woff'),url("../fonts/entypo.ttf") format('truetype'),url("../fonts/entypo.svg#entypo") format('svg');font-weight:normal;font-style:normal}
+[class^="icon-"],[class*=" icon-"]{font-family:'entypo';font-weight:normal;font-style:normal;text-decoration:inherit;display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline}
+[class^="icon-"]:before,[class*=" icon-"]:before{text-decoration:inherit;display:inline-block;speak:none}
+.icon-home:before{content:'\272a'}
+.icon-email:before{content:'\2709'}
+.icon-vcard:before{content:'\263a'}
+.icon-right-arrow:before{content:'\ff1e'}
+.icon-github:before{content:'\ff27'}
+.icon-twitter:before{content:'\ff34'}
+.icon-facebook:before{content:'\ff26'}
+.icon-gplus:before{content:'\ff0b'}
+.icon-linkedin:before{content:'\ff2c'}
+.icon-dribbble:before{content:'\ff24'}
+.icon-skype:before{content:'\ff33'}
+.icon-monitor:before{content:'\ff0a'}
+.icon-phone:before{content:'\2706'}
+/* main.css */
+.clearfix:before,body:before,header:before,#content:before,#content dl:before,aside:before,aside dl:before,.clearfix:after,body:after,header:after,#content:after,#content dl:after,aside:after,aside dl:after{content:'';display:table}
+.clearfix:after,body:after,header:after,#content:after,#content dl:after,aside:after,aside dl:after{clear:both}
+body{background:#fdfdfd;color:#666;font-family:Arimo,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;font-size:.875rem;line-height:1.5;}
+body::before{content:'';background:#f90;position:fixed;top:-10px;left:-15px;width:120%;height:15px;z-index:999;-webkit-box-shadow:0 0 15px rgba(0,0,0,0.25);-moz-box-shadow:0 0 15px rgba(0,0,0,0.25);box-shadow:0 0 15px rgba(0,0,0,0.25)}
+::selection{background:#ff9;text-shadow:none}
+::-webkit-selection{background:#ff9;text-shadow:none}
+::-moz-selection{background:#ff9;text-shadow:none}
+a{color:#f90;text-decoration:none;}
+a:hover{text-decoration:underline}
+.visuallyhidden,.accessibility-nav,aside dt span{border:0;position:absolute;margin:-1px;padding:0;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3{font-weight:400}
+h1,h2{background:#f90;color:#fdfdfd;font-size:24px;font-size:1.5rem;line-height:1;padding:.2em;float:left}
+h2{padding:.2em .35em}
+header,#content{padding:5%;width:65%;float:left;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+header img{border:1px solid #f4f4f4;float:right;display:block;width:100px;height:100px;height:auto}
+header h1{font-size:48px;font-size:3rem}
+hgroup{float:left;width:75%;}
+hgroup h1,hgroup h2{margin:0;clear:left}
+#content{padding-top:0;}
+#content h2 + p,#content h2 + ol{clear:left}
+#content h2{margin-bottom:.5em}
+#content h3,#content h4{margin:0}
+#content h3{margin-top:1em}
+#content ol{padding-left:0;margin-left:0}
+#content li{border-bottom:2px solid #f4f4f4;list-style:none;}
+#content li:last-child{border:none}
+#content .publications ol{padding-left:1em}
+#content .publications li{border:none;margin-bottom:.5em;list-style:disc}
+#content dt{font-weight:600;clear:left}
+#content dd{background:#f4f4f4;margin:.25em .25em .25em 0;padding:.25em;float:left;display:block;white-space:nowrap;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+#content .period{background:#f4f4f4;color:#949494;float:right;margin:1.5em 0 0;padding:.25em;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;transform:translate(0,0)}
+aside{background:#f4f4f4;position:fixed;right:0;padding:5%;width:35%;min-height:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+aside h3{margin:0;}
+aside h3:after{content:" \ff1e";font-family:'entypo';font-size:14px;font-size:.875rem}
+aside dl{margin:.5em 0 2em;}
+aside dt,aside dd{line-height:1.5;margin:0;padding:.25em 0;float:left;display:block}
+aside dt{clear:left}
+aside dd a,aside dd[itemprop='address']{padding:.5em}
+aside dd a{display:block}
+aside span[itemprop='streetAddress'],aside span[itemprop='addressCountry']{display:block}
+aside .last-modified{color:#949494;font-style:italic}
+aside [class^="icon-"],aside [class*=" icon-"]{background:#f90;color:#fdfdfd;text-align:center;margin:.25em 0;padding:.5em;width:1em;float:left;-webkit-border-radius:1em;-moz-border-radius:1em;border-radius:1em}
+aside .icon-facebook{background:#3b5998}
+aside .icon-twitter{background:#3c8fc9}
+aside .icon-linkedin{background:#007bb6}
+aside .icon-gplus{background:#dd4b39}
+footer{color:#949494}
+/* media-queries.css */
+@media only screen and (max-width: 850px), screen and (max-height: 675px){header,aside,#content{width:auto;float:none}
+aside{position:static}
+#content .period{background:none;font-style:italic;float:none;padding:0}
+.contact,.follow,footer{float:left}
+.contact{width:40%}
+.follow{width:25%}
+footer{width:35%;}
+footer p{margin-top:0}
+}@media only screen and (max-width: 650px){.contact,.follow,footer{width:auto;float:none}
+}@media only screen and (max-width: 480px){header hgroup{width:auto;margin-bottom:5%}
+header img{float:none;margin:0 auto;width:100%;height:auto}
+}/* print.css */
+@media print{*{background:transparent !important;color:#000 !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important}
+a,a:visited{text-decoration:underline}
+a[href]:after{content:" (" attr(href) ")"}
+abbr[title]:after{content:" (" attr(title) ")"}
+a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
+pre,blockquote{border:1px solid #999;page-break-inside:avoid}
+thead{display:table-header-group}
+tr,img{page-break-inside:avoid}
+img{max-width:100% !important}
+p,h2,h3{orphans:3;widows:3}
+h2,h3{page-break-after:avoid}
+aside,#content,header hgroup{float:none;width:auto;position:static}
+hgroup{margin-bottom:1em;}
+hgroup h1,hgroup h2{float:none}
+header img{float:none;clear:left;width:50%;height:50%}
+#content h2{padding:0;clear:left}
+#content .period{float:none;padding:0}
+#content dd{padding:0;}
+#content dd:after{content:', '}
+#content dd:last-child:after{content:'.'}
+#content .publications ol{padding-left:0}
+.print-hidden {display:none;}
+}
